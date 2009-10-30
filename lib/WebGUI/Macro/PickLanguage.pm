@@ -61,6 +61,7 @@ sub process {
 	my %vars = (
 		lang_loop	 	=> \@lang_loop,
 		delete_url		=> '?op=setLanguage;language=delete;',
+		delete_label		=> $i18n->get('delete',"Macro_PickLanguage"),
 	);
 
 	return $template->process(\%vars);

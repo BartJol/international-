@@ -29,6 +29,9 @@ our $HELP = {
 			{
 				name => "delete_url",
 			},
+			{
+				name => "delete_label",
+			},
 		],
 		related => [  
 		],
