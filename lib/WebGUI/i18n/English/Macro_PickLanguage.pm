@@ -40,7 +40,11 @@ our $I18N = { ##hashref of hashes
                 lastUpdated => 1131394072,
                 context => q|The url to change languages|
         },
-
+	'delete_url' => {
+		message => q|The url that deletes the scratch language from the session.|,
+		lastUpdated => 1131394072,
+		context => q|A template var to remove the scratch language|
+	}
 
 };
 
